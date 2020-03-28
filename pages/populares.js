@@ -6,9 +6,11 @@ import useProductos from '../hooks/useProductos';
 
 
 
-const Home = () => {
+
+const Porpulares = () => {
     
-    const {productos} = useProductos('creado');
+    const {productos} = useProductos('votos');
+
     return  (
         <div>
             <Layout>
@@ -29,4 +31,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Porpulares
